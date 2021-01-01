@@ -1,24 +1,15 @@
-# README
+# Microservice-rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**LEARNING**
+- Gems
+ - Devise = gem for authentication
+ - Rack_attack = gem for block bruteforce
+ - simple_token_authentication = for protected the routes, for requests
+- Devise uses
+  - to generate user: "rails generate devise User"
+    > after: "rails g migration addNameToUser name:string" 
+    | to create more one column in the migration containing name of user, this command generate one model
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- rails c
+  - with rails c, us have a power of debug our system
+  - rails c <- is a command to use rails console, where us have a power of use methods of one model (ex: User.create <~ using method create of model User)
