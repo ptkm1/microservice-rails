@@ -16,7 +16,7 @@
 
 # ***English readme***
 
-- This api has as a standard, build a micro-service for an application, where some contacts will be saved, this application will have an administrator, an owner for the application, after all someone needs to manage the app =)
+- This api has as a standard, build a micro-service for an application, where some clients will be saved, this application will have an administrator, an owner for the application, after all someone needs to manage the app =)
 
 **Justification**
 - Studies with ruby and ruby on rails, creating the first api, based on the OneBitCode course: https://www.youtube.com/channel/UC44Mzz2-5TpyfklUCQ5NuxQ

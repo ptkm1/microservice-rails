@@ -4,4 +4,7 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
+
+  has_many :clients, dependent: :destroy 
+  # if an user has been deleted, this client related is deleted together
 end

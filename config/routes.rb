@@ -1,4 +1,19 @@
 Rails.application.routes.draw do
   devise_for :users
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  namespace :api do
+    namespace :v1 do
+      resources :clients
+    end
+  end
+  # with this namespaces, in the end, is generated this url: /api/v1/clients/
+
+  # to subdomains
+    # constraints subdomain: 'api' do
+    #   scope module: 'api' do
+    #     namespace :v1 do
+    #       resources :clients
+    #     end
+    #   end
+    # end
+
 end
