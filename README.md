@@ -1,15 +1,28 @@
 # Microservice-rails
 
-**LEARNING**
-- Gems
- - Devise = gem for authentication
- - Rack_attack = gem for block bruteforce
- - simple_token_authentication = for protected the routes, for requests
-- Devise uses
-  - to generate user: "rails generate devise User"
-    > after: "rails g migration addNameToUser name:string" 
-    | to create more one column in the migration containing name of user, this command generate one model
+- Esta api tem como finalidade, construir um micro-serviço para uma aplicação, onde serão salvos alguns contatos, e esta aplicação possuirá um administrador, um dono para a aplicação, afinal alguem precisa gerenciar o app =)
 
-- rails c
-  - with rails c, us have a power of debug our system
-  - rails c <- is a command to use rails console, where us have a power of use methods of one model (ex: User.create <~ using method create of model User)
+**Justificativa**
+- Estudos com ruby e ruby on rails, criando a primeira api, baseada no curso do OneBitCode: https://www.youtube.com/channel/UC44Mzz2-5TpyfklUCQ5NuxQ
+- Praticando o inglês também, portanto todos os commits, metodos, variáveis, classes e etc estão em inglês.
+
+
+**Tecnologias**
+> - Ruby
+> - Ruby on rails
+> - SQLite
+
+**---------------------------------------------------------------------------------------------------------**
+
+# ***English readme***
+
+- This api has as a standard, build a micro-service for an application, where some contacts will be saved, this application will have an administrator, an owner for the application, after all someone needs to manage the app =)
+
+**Justification**
+- Studies with ruby and ruby on rails, creating the first api, based on the OneBitCode course: https://www.youtube.com/channel/UC44Mzz2-5TpyfklUCQ5NuxQ
+- Practicing English too, so all commits, methods, variables, classes and etc. are in English.
+
+**Tecnologies**
+> - Ruby
+> - Ruby on rails
+> - SQLite
